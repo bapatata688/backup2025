@@ -1,0 +1,5 @@
+[Default Applications]
+text/html=app.zen_browser.zen.desktop
+
+[Added Associations]
+text/html=app.zen_browser.zen.desktop;

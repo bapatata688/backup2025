@@ -1,0 +1,9 @@
+2025/05/03-11:34:43.991 78bb0 Reusing MANIFEST /home/fred/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/05/03-11:34:44.000 78bb0 Recovering log #10
+2025/05/03-11:34:44.001 78bb0 Reusing old log /home/fred/.config/discord/Local Storage/leveldb/000010.log 
+2025/05/03-11:35:57.276 78bad Level-0 table #14: started
+2025/05/03-11:35:57.284 78bad Level-0 table #14: 28431 bytes OK
+2025/05/03-11:35:57.286 78bad Delete type=0 #10
+2025/05/03-11:38:22.097 78bac Level-0 table #16: started
+2025/05/03-11:38:22.129 78bac Level-0 table #16: 1013306 bytes OK
+2025/05/03-11:38:22.131 78bac Delete type=0 #13

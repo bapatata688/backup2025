@@ -1,0 +1,250 @@
+/* @define-color white #c0caf5; */
+/* @define-color magenta #bb9af7; */
+/* @define-color red #F28FAD; */
+/* @define-color yellow #F8BD96; */
+/* @define-color green #ABE9B3; */
+/* black @define-color base #28344a; */
+@define-color white #D9B8D6;
+/* Blanco etéreo */
+@define-color magenta #8D99AE;
+/* Gris plateado */
+@define-color red #EF233C;
+/* Rojo sangre */
+@define-color yellow #D1C6C6;
+/* Beige antiguo */
+@define-color green #5B4B8A;
+/* Púrpura oscuro */
+@define-color base #2B2D42;
+
+/* Azul noche profundo */
+* {
+  border: none;
+  font-family: "MedievalSharp", "UnifrakturMaguntia";
+  font-weight: bold;
+  font-size: 14px;
+  min-height: 0;
+}
+
+window#waybar {
+  color: @white;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  transition-duration: 1s;
+  box-shadow: none;
+  background: transparent;
+}
+
+window#waybar,
+#workspaces button.active {
+  text-shadow: 2px 2px 6px #000c;
+}
+
+#workspaces button:not(:last-child) {
+  border-right: 1px solid #3B2A3F;
+}
+
+tooltip {
+  border-radius: 0px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(26, 27, 38, 0);
+  color: #c0caf5;
+}
+
+#workspaces button {
+  color: @magenta;
+  background: transparent;
+  border-radius: 0;
+  margin: 0 2px;
+  padding: 0 6px;
+  transition: background 0.2s;
+}
+
+#workspaces button.active {
+  color: @red;
+  background: rgba(107, 30, 63, 0.15);
+  text-shadow: 1px 1px 2px #000a;
+}
+
+#workspaces button.focused {
+  color: @green;
+}
+
+#workspaces button.urgent {
+  color: @yellow;
+}
+
+#workspaces button:hover {
+  background: rgba(91, 75, 138, 0.25);
+  color: @white;
+}
+
+#temperature {
+  color: mix(#f7768e, #c0caf5, 0.8);
+  /* Tokyo Night Red */
+}
+
+#temperature.critical {
+  color: #f7768e;
+  /* Tokyo Night Red */
+}
+
+#backlight {
+  color: @magenta;
+  /* Tokyo Night Cyan */
+}
+
+#workspaces {
+  padding: 0px;
+}
+
+#mpris {
+  color: @magenta;
+  padding-left: 2px;
+}
+
+#custom-cava,
+#custom-euro {
+  color: @magenta;
+  /* Tokyo Night Purple */
+}
+
+#custom-power_profile {
+  color: @green;
+  /* Tokyo Night Green */
+}
+
+#window {
+  color: #c0caf5;
+  /* Tokyo Night Foreground */
+}
+
+#clock {
+  color: @magenta;
+  /* Tokyo Night Purple */
+}
+
+#workspaces,
+#light,
+#audio {}
+
+#custom-arch {
+  color: @magenta;
+  /* Tokyo Night Blue */
+}
+
+#custom-quit {
+  color: @red;
+  /* Tokyo Night Orange */
+}
+
+#custom-lock {
+  color: @green;
+  /* Tokyo Night Green */
+}
+
+#custom-sleep {
+  color: @green;
+  /* Tokyo Night Cyan */
+}
+
+#custom-reboot {
+  color: @red;
+  /* Tokyo Night Orange */
+}
+
+#custom-shutdown {
+  color: @red;
+  /* Tokyo Night Red */
+}
+
+#network {
+  color: @magenta;
+  /* Tokyo Night Blue */
+}
+
+#bluetooth {
+  color: @magenta;
+  /* Tokyo Night Cyan */
+}
+
+#pulseaudio:not(.microphone) {
+  color: mix(#ff9e64, #c0caf5, 0.5);
+  /* Tokyo Night Orange */
+}
+
+#pulseaudio.microphone {
+  color: mix(#9ece6a, #c0caf5, 0.5);
+  /* Tokyo Night Green */
+}
+
+#pulseaudio.bluetooth:not(.microphone) {
+  color: mix(#7dcfff, #c0caf5, 0.5);
+  /* Tokyo Night Cyan */
+}
+
+#pulseaudio.muted:not(.microphone) {
+  color: mix(#f7768e, #c0caf5, 0.5);
+  /* Tokyo Night Red */
+}
+
+#pulseaudio.microphone.source-muted {
+  color: mix(#f7768e, #c0caf5, 0.5);
+  /* Tokyo Night Red */
+}
+
+#battery {
+  color: @magenta;
+  /* Tokyo Night Green */
+}
+
+battery.bat2 {
+  color: mix(#9ece6a, #c0caf5, 0.5);
+  /* Tokyo Night Green */
+}
+
+#custom-weather {
+  color: mix(#ff9e64, #c0caf5, 0.5);
+  /* Tokyo Night Orange */
+}
+
+#tray {
+  padding: 0;
+  background: transparent;
+}
+
+window#waybar>box>box>widget>*,
+window#waybar>box>box>box {
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: rgba(26, 27, 38, 0.6);
+}
+
+widget>* {
+  padding: 0 10px;
+}
+
+slider {
+  min-height: 0px;
+  min-width: 0px;
+  opacity: 0;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+}
+
+trough {
+  min-height: 20px;
+  min-width: 80px;
+  border-radius: 5px;
+}
+
+highlight {
+  min-height: 10px;
+  border-radius: 5px;
+}
+
+#light {
+  border-radius: 5px;
+}

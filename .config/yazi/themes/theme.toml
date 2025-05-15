@@ -1,0 +1,31 @@
+
+[ui]
+background = "#232136"
+foreground = "#e0def4"
+selection  = "#393552"
+highlight  = "#eb6f92"
+title      = "#f6c177"
+status     = "#9ccfd8"
+border     = "#524f67"
+cursor     = "#c4a7e7"
+disabled   = "#6e6a86"
+
+[manager]
+cwd = { fg = "#9ccfd8" } # folder actual
+hovered = { bg = "#393552" }
+find_keyword = { fg = "#eb6f92", italic = true, underline = true }
+marker_copied = { fg = "#e0def4", bg = "#9ccfd8" }
+marker_cut = { fg = "#e0def4", bg = "#eb6f92" }
+marker_marked = { fg = "#e0def4", bg = "#c4a7e7" }
+
+[tab]
+tab_active = { bg = "#393552", fg = "#f6c177" }
+
+[status]
+mode_normal = { fg = "#232136", bg = "#f6c177", bold = true }
+
+[select]
+active = { fg = "#f6c177", bold = true }
+
+[input]
+selected = { reversed = true }

@@ -1,0 +1,129 @@
+{
+	"renderer": {
+		"individualZoomStepIndex": 5,
+		"zoomStepIndex": 2
+	},
+	"deviceManager": {
+		"activeDevices": [
+			"10008",
+			"10013",
+			"10015"
+		],
+		"previewSuites": [
+			{
+				"id": "default",
+				"name": "Default",
+				"devices": [
+					"10008",
+					"10013",
+					"10015"
+				]
+			}
+		],
+		"customDevices": []
+	},
+	"userPreferences": {
+		"webRequestHeaderAcceptLanguage": "",
+		"allowInsecureSSLConnections": false,
+		"guides": [],
+		"screenshot": {
+			"saveLocation": "/home/fred/Desktop/Responsively-Screenshots"
+		}
+	},
+	"webPermissions": [],
+	"history": [
+		{
+			"url": "file:///home/fred/school/proyectos-escuela/estructura/html/practica1.html",
+			"title": "practica1.html",
+			"lastVisited": 1746232779168
+		},
+		{
+			"url": "file:///home/fred/school/responsive/html/layout-1.html",
+			"title": "layout-1.html",
+			"lastVisited": 1744732961620
+		},
+		{
+			"url": "http://127.0.0.1:8080/html/hh.html",
+			"title": "Ejemplo Responsive",
+			"lastVisited": 1744508646486
+		},
+		{
+			"url": "http://127.0.0.1:8080/hh.html",
+			"title": "Ejemplo Responsive",
+			"lastVisited": 1744508408868
+		},
+		{
+			"url": "file:///home/fred/school/Proyecto/html/SobreNosotros.html",
+			"title": "SobreNosotros.html",
+			"lastVisited": 1741179689611
+		},
+		{
+			"url": "file:///home/fred/school/Proyecto/html/Objetivos.html",
+			"title": "Objetivos|GBA",
+			"lastVisited": 1741179656750
+		},
+		{
+			"url": "file:///home/fred/school/Proyecto/html/index.html",
+			"title": "index.html",
+			"lastVisited": 1741179643466
+		},
+		{
+			"url": "http://127.0.0.1:8080/Proyecto/html/SobreNosotros.html",
+			"title": "127.0.0.1:8080/Proyecto/html/SobreNosotros.html",
+			"lastVisited": 1741179619774
+		},
+		{
+			"url": "http://127.0.0.1:8080/Proyecto/html/index.html",
+			"title": "Inicio|GBA",
+			"lastVisited": 1740411462815
+		},
+		{
+			"url": "http://127.0.0.1:8080/Proyecto/html/",
+			"title": "127.0.0.1:8080/Proyecto/html/",
+			"lastVisited": 1740411149866
+		},
+		{
+			"url": "http://127.0.0.1:8080/ejemplos-escuela/",
+			"title": "127.0.0.1:8080/ejemplos-escuela/",
+			"lastVisited": 1740159618273
+		},
+		{
+			"url": "file:///home/fred/responsive/Project%204%20-%20Classic%20Cars/Final%20Files/index.html",
+			"title": "index.html",
+			"lastVisited": 1740144360315
+		},
+		{
+			"url": "http://127.0.0.1:8080/proyectos-escuela/estructura/html/practica1.html",
+			"title": "127.0.0.1:8080/proyectos-escuela/estructura/html/practica1.html",
+			"lastVisited": 1740106961488
+		},
+		{
+			"url": "file:///home/fred/webpagess/layout1/html/index.html",
+			"title": "Veloratech",
+			"lastVisited": 1739993957930
+		},
+		{
+			"url": "http://127.0.0.1:8080/layout2/HTML/",
+			"title": "127.0.0.1:8080/layout2/HTML/",
+			"lastVisited": 1739993362447
+		}
+	],
+	"homepage": "file:///home/fred/school/proyectos-escuela/estructura/html/practica1.html",
+	"seenReleaseNotes": [
+		"1.16.0"
+	],
+	"bookmarks": [],
+	"sponsorship": {
+		"lastShown": 1744508246404
+	},
+	"__internal__": {
+		"migrations": {
+			"version": "1.16.0"
+		}
+	},
+	"ui": {
+		"darkMode": true,
+		"previewlayout": "FLEX",
+		"previewLayout": "COLUMN"
+	}
+}

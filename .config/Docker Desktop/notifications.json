@@ -1,0 +1,86 @@
+{
+	"notifications": [
+		{
+			"guid": "bd37987d-0174-432d-ad42-26fe15c45c2b",
+			"timestamp": 1747270587591,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"ephemeral": false,
+				"icon": "download",
+				"message": "Docker Desktop 4.41.2 is available.",
+				"actionText": "Download",
+				"action": {
+					"action": "update-available"
+				},
+				"type": "update"
+			}
+		},
+		{
+			"guid": "76a33ebd-fb06-4f50-8687-da4f13c48f43",
+			"timestamp": 1747270601913,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "You must initialize pass before logging in to Docker Desktop",
+				"icon": "error",
+				"type": "action-result",
+				"operation": "user-log-in",
+				"title": "Unable to log in",
+				"actionText": "Learn how",
+				"action": {
+					"action": "open-credential-store-instructions",
+					"params": {}
+				}
+			}
+		},
+		{
+			"guid": "caa8806c-b63f-43ab-8887-f60b5c9d1f68",
+			"timestamp": 1747270604133,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "How was your startup experience with Docker Desktop?",
+				"icon": "campaign",
+				"type": "feedback",
+				"actionText": "Give feedback",
+				"action": {
+					"action": "show-survey-dialog",
+					"params": {
+						"type": "startupComplete"
+					}
+				}
+			}
+		},
+		{
+			"guid": "f35dd200-d856-4701-a172-ef6a88ed8a05",
+			"timestamp": 1747326516332,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "Multi-platform image support with containerd is here, try it now!",
+				"icon": "sparkles",
+				"type": "general-purpose",
+				"actionText": "Enable",
+				"action": {
+					"action": "enable-c8d",
+					"params": {}
+				}
+			}
+		},
+		{
+			"guid": "f5a4706d-7b96-4759-8c08-631a02a02770",
+			"timestamp": 1747327351222,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"type": "action-result",
+				"icon": "error",
+				"message": "(HTTP code 500) server error -  ",
+				"operation": "Pull image mysql:latest",
+				"title": "Unable to pull mysql:latest",
+				"ephemeral": false
+			}
+		}
+	]
+}

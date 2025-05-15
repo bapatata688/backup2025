@@ -1,0 +1,34 @@
+[
+  {
+    "output": [
+      "eDP-1"
+    ],
+    "position": "top",
+    "persist": true,
+    "group/system": {
+      "orientation": "inherit",
+      "modules": [
+        "group/light",
+        "tray",
+        "battery",
+        "network",
+        "bluetooth"
+      ],
+    },
+    "modules-left": [
+      "group/power",
+      "clock",
+      "hyprland/workspaces"
+    ],
+    "modules-right": [
+      "group/audio",
+      "group/system"
+    ],
+    "modules-center": [
+      "mpris"
+    ],
+    "include": [
+      "~/.config/waybar/default-modules.jsonc"
+    ],
+  },
+]

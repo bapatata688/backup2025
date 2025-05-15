@@ -1,0 +1,64 @@
+
+* {
+  font: "JetBrainsMono Nerd Font 12";
+  text-color:              #e0def4;
+  background:              transparent;
+  background-color:        rgba(17, 17, 27, 0.3);  // VERDADERA transparencia
+  border-color:            #403d52;
+  border:                  2;
+  border-radius:           10px;
+  padding:                 10px;
+  spacing:                 5px;
+  icon-theme:              "Papirus-Dark";
+  show-icons:              true;
+}
+
+window {
+  transparency:            "real";
+  background-color:        rgba(17, 17, 27, 0.3);  // más transparente
+  border:        2px;
+  border-color:  #5D1A37;
+ border-radius: 10px;
+
+}
+
+listview {
+  lines:                   6;
+  columns:                 1;
+  spacing:                 4px;
+  scrollbar:               true;
+  fixed-height:            true;
+}
+
+element {
+  padding:                 6px 10px;
+  background-color:        transparent;
+  text-color:              #e0def4;
+}
+
+element selected {
+  background-color:        #403d52;
+  text-color:              #f6c177;
+}
+
+element-icon {
+  size:                    1.2em;
+  padding:                 0 6px;
+}
+
+entry {
+  padding:                 4px;
+  background-color:        #191724;
+  text-color:              #e0def4;
+  placeholder-color:       #6e6a86;
+}
+
+message {
+  padding:                 6px;
+  background-color:        #191724;
+  text-color:              #e0def4;
+}
+
+textbox {
+  text-color:              #e0def4;
+}
